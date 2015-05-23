@@ -1,0 +1,130 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CFEBF9"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/btnkah"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/kahvalti" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/checkLeftSol"
+                    android:fontFamily="@string/font"
+                    android:text="@string/btnKahvalti"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/txtSize"
+                    android:textStyle="italic" />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/genel"
+            android:gravity="center" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/btnOgle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ogle" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/checkLeftSol"
+                    android:fontFamily="@string/font"
+                    android:text="@string/btnOgle"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/txtSize"
+                    android:textStyle="italic" />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/genel"
+            android:gravity="center" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/btnaks"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/aksam" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/checkLeftSol"
+                    android:fontFamily="@string/font"
+                    android:text="@string/btnAksam"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/txtSize"
+                    android:textStyle="italic" />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/genel"
+            android:gravity="center" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/btnrap"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/grafik" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/checkLeftSol"
+                    android:fontFamily="@string/font"
+                    android:text="@string/btnRaporlama"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/txtSize"
+                    android:textStyle="italic" />
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

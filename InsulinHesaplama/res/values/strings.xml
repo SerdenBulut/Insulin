@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Insulinmatik</string>
+    <string name="font">sans-serif-condensed</string>
+    <string name="txtAcilis">Şeker, şekerlikte güzeldir;\n\n\t\t\t\t\t\t\t\t\tkanınızda değil!</string>
+    <string name="btnGiris">Şifreniz</string>
+    <string name="btnKahvalti">Sabah</string>
+    <string name="btnOgle">Öğle</string>
+    <string name="btnAksam">Akşam</string>
+    <string name="btnRaporlama">Raporlama</string>
+    <string name="chkPeynir">Peynir</string>
+    <string name="chkDereotu">Dereotu</string>
+    <string name="chkZeytin">Zeytin</string>
+    <string name="chkBal">Bal</string>
+    <string name="chkDomates">Domates</string>
+    <string name="chkTereyag">Tereyağ</string>
+    <string name="chkSalatalik">Salatalık</string>
+    <string name="chkRecel">Reçel</string>
+    <string name="chkYumurta">Yumurta</string>
+    <string name="chkKasar">Kaşar</string>
+    <string name="chkYogurt">Yoğurt</string>
+    <string name="chkEkmek">Ekmek</string>
+    <string name="chkKaymak">Kaymak</string>
+    <string name="chkCay">Çay</string>
+    <string name="chkMarul">Marul</string>
+    <string name="chkMeyvesuyu">Meyvesuyu</string>
+    <string name="chkSut">Süt</string>
+    <string name="chkSucuk">Sucuk</string>
+    <string name="btnKahvaltiTamam">Seç</string>
+    <string name="txtAksam">Yemeğinizin tahmini karbonhidrat \n\t\t\t\t\tmiktarını giriniz.</string>
+    <string name="btnAksamTamam">Tamam</string>
+    <string name="txtOlcum">Ölçtüğünüz kan şekeri değerinizi giriniz.</string>
+    <string name="radioLantus">Lantus</string>
+    <string name="radioHumulin">Humulin</string>
+    <string name="btnSonuc">Sonuç</string>
+    <string name="btnAnamenu">Anasayfa</string>
+    <string name="txtIlac">İlaç Seçiminiz:</string>
+    <string name="txtlistID">Sıra</string>
+    <string name="txtlistKansekeri">Kan Şekeri</string>
+    <string name="txtlistInsulinmitari">İnsülin Mikt.</string>
+    <string name="txtlistTarih">Tarih</string>
+    <string name="btnKaydet">Kaydet</string>
+    <string name="txtGrafik">Grafik</string>
+    <string name="txtAnaliz">Raporlar</string>
+    <string name="aylar">Aylar</string>
+    <string name="aksCorba">Çorbalar</string>
+    <string name="aksPilav">Pilav ve Makarna</string>
+    <string name="aksYemek">Ana Yemekler</string>
+    <string name="aksMeyve">Meyveler</string>
+    <string name="aksTatli">Tatlılar</string>
+    <string name="aksIcecekler">İçecekler</string>
+    
+
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CFEBF9"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/btnGrafik"
+                    android:layout_width="185dp"
+                    android:layout_height="195dp"
+                    android:background="@drawable/graf"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/txtCorba"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@string/font"
+                    android:gravity="center"
+                    android:text="@string/txtGrafik"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/txtSize"
+                    android:textStyle="italic" />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/btnAnaliz"
+                    android:layout_width="185dp"
+                    android:layout_height="195dp"
+                    android:background="@drawable/rapor"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/txtPilav"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@string/font"
+                    android:gravity="center"
+                    android:text="@string/txtAnaliz"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/txtSize"
+                    android:textStyle="italic" />
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

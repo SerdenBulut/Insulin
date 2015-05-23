@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CFEBF9"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/paddinLeft" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/txtAcilisLeft" >
+
+        <TextView
+            android:id="@+id/txtBilgi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@string/font"
+            android:text="@string/txtAksam"
+            android:textColor="#000000"
+            android:textSize="@dimen/txtSize"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/txtAcilisLeft" >
+
+        <EditText
+            android:id="@+id/edtKalori"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edttxtshape"
+            android:ems="10" >
+        </EditText>
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" >
+
+                <TextView
+                    android:id="@+id/txtCorba"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@string/font"
+                    android:paddingBottom="@dimen/rowMargin"
+                    android:paddingRight="@dimen/temp"
+                    android:text="@string/aksCorba"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/txtSize"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/txtPilav"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@string/font"
+                    android:paddingBottom="@dimen/rowMargin"
+                    android:text="@string/aksPilav"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/txtSize"
+                    android:textStyle="italic" />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/txtYemek"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@string/font"
+                    android:paddingBottom="@dimen/rowMargin"
+                    android:paddingRight="@dimen/txtSize"
+                    android:text="@string/aksYemek"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/txtSize"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/txtMeyve"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@string/font"
+                    android:paddingBottom="@dimen/rowMargin"
+                    android:text="@string/aksMeyve"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/txtSize"
+                    android:textStyle="italic" />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/txtTatlilar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@string/font"
+                    android:paddingRight="@dimen/temp2"
+                    android:text="@string/aksTatli"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/txtSize"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/txtIcecek"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@string/font"
+                    android:text="@string/aksIcecekler"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/txtSize"
+                    android:textStyle="italic" />
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/txtAcilisLeft" >
+
+        <Button
+            android:id="@+id/btnTamamAksam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonshape"
+            android:text="@string/btnAksamTamam" />
+    </LinearLayout>
+
+</LinearLayout>

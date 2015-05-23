@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CFEBF9"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/paddinLeft" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txtId"
+                android:layout_width="151dp"
+                android:layout_height="wrap_content"
+                android:text="@string/txtIlac"
+                android:textColor="#000000"
+                android:textSize="@dimen/txtSizeSifre"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <RadioGroup
+                android:id="@+id/radiogrupIlac"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/radioLantus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/radioLantus" />
+
+                <RadioButton
+                    android:id="@+id/radioHumulin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/radioHumulin" />
+            </RadioGroup>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/txtAcilisLeft" >
+
+        <TextView
+            android:id="@+id/txtBilgi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@string/font"
+            android:gravity="center"
+            android:text="@string/txtOlcum"
+            android:textColor="#000000"
+            android:textSize="@dimen/txtSizeSifre"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/txtAcilisLeft" >
+
+        <EditText
+            android:id="@+id/edtKanseker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edttxtshape"
+            android:ems="10" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/txtAcilisLeft" >
+
+        <Button
+            android:id="@+id/btnTamamOlcum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonshape"
+            android:text="@string/btnSonuc" />
+
+        <Button
+            android:id="@+id/btnKaydet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/rowMargin"
+            android:background="@drawable/buttonshape"
+            android:text="@string/btnKaydet" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/txtAcilisLeft" >
+
+        <TextView
+            android:id="@+id/txtSonuc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#ff0000"
+            android:textSize="@dimen/txtSize"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="end" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btnAnasayfa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/rowMargin"
+                android:layout_marginRight="@dimen/rowMargin"
+                android:background="@drawable/buttonshape"
+                android:gravity="center"
+                android:text="@string/btnAnamenu" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

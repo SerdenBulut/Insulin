@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CFEBF9"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/checkTop"
+        android:gravity="center" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/checkTop"
+            android:gravity="center" >
+
+            <CheckBox
+                android:id="@+id/chkPeynir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/checkLeftSol"
+                android:text="@string/chkPeynir" />
+
+            <CheckBox
+                android:id="@+id/chkDereotu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/checkLeftSag"
+                android:text="@string/chkDereotu" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/checkTop"
+            android:gravity="center" >
+
+            <CheckBox
+                android:id="@+id/chkZeytin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/checkLeftSol"
+                android:text="@string/chkZeytin" />
+
+            <CheckBox
+                android:id="@+id/chkBal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/checkLeftSag"
+                android:text="@string/chkBal" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/checkTop"
+            android:gravity="center" >
+
+            <CheckBox
+                android:id="@+id/chkDomates"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/checkLeftSol"
+                android:text="@string/chkDomates" />
+
+            <CheckBox
+                android:id="@+id/chkTereyag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/checkLeftSag"
+                android:text="@string/chkTereyag" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/checkTop"
+            android:gravity="center" >
+
+            <CheckBox
+                android:id="@+id/chkSalatalik"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/checkLeftSol"
+                android:text="@string/chkSalatalik" />
+
+            <CheckBox
+                android:id="@+id/chkRecel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/checkLeftSag"
+                android:text="@string/chkRecel" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/checkTop"
+            android:gravity="center" >
+
+            <CheckBox
+                android:id="@+id/chkYumurta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/checkLeftSol"
+                android:text="@string/chkYumurta" />
+
+            <CheckBox
+                android:id="@+id/chkKasar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/checkLeftSag"
+                android:text="@string/chkKasar" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/checkTop"
+            android:gravity="center" >
+
+            <CheckBox
+                android:id="@+id/chkYogurt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/checkLeftSol"
+                android:text="@string/chkYogurt" />
+
+            <CheckBox
+                android:id="@+id/chkEkmek"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/checkLeftSag"
+                android:text="@string/chkEkmek" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/checkTop"
+            android:gravity="center" >
+
+            <CheckBox
+                android:id="@+id/chkKaymak"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/checkLeftSol"
+                android:text="@string/chkKaymak" />
+
+            <CheckBox
+                android:id="@+id/chkCay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/checkLeftSag"
+                android:text="@string/chkCay" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/checkTop"
+            android:gravity="center" >
+
+            <CheckBox
+                android:id="@+id/chkMarul"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/checkLeftSol"
+                android:text="@string/chkMarul" />
+
+            <CheckBox
+                android:id="@+id/chkMeyvesuyu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/checkLeftSag"
+                android:text="@string/chkMeyvesuyu" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/checkTop"
+            android:gravity="center" >
+
+            <CheckBox
+                android:id="@+id/chkSucuk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/checkLeftSol"
+                android:text="@string/chkSucuk" />
+
+            <CheckBox
+                android:id="@+id/chkSut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/checkLeftSag"
+                android:text="@string/chkSut" />
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/checkLeftSol"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnTamam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/buttonshape"
+            android:text="@string/btnKahvaltiTamam" />
+    </LinearLayout>
+
+</LinearLayout>
